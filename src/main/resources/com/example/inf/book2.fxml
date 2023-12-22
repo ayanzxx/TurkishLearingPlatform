@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: d42c2c;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.inf.Book2">
+   <children>
+      <Text fill="WHITE" layoutX="277.0" layoutY="113.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Learn Turkish">
+         <font>
+            <Font name="Rockwell" size="64.0" />
+         </font>
+      </Text>
+      <TextArea fx:id="t1" editable="false" layoutX="69.0" layoutY="227.0" prefHeight="311.0" prefWidth="762.0" text="SÜT HAVUZU Bir zamanlar çok zengin bir ülke ( devlet) varmış. Bu ülkenin kralı çok büyük ve güzel bir havuz yaptırmış. Bu havuzu süt ile doldurmak istemiş. Sonra da havuzu komşu ülkelere göstermek istemiş. Kralın adamları sokaklarda dolaşmışlar ve insanlara haber vermişler. Davullar çalmışlar. “ Güm güm güm! Duyduk duymadık demeyin! Kralımız çok büyük bir havuz yaptırdı. Bu havuza herkes bir kova süt dökecek. Ve sonra da süt dolu çok büyük bir havuzumuz olacak. Başka ( diğer) ülkeler bizim ülkemizin çok zengin olduğunu görecek!” Herkes bu habere çok sevinmiş. Merak etmişler ve havuzu görmek için gelmişler. Bakmışlar ki, havuz gerçekten çok büyük. Herkes bu havuza hayran olmuş. Kralın adamları tekrar ilan etmişler. - Herkes bu gece havuza bir kova süt dökecek. Ülkenin insanları o gece ellerinde bir kova ile havuza gelmişler. Ellerindeki kovaları havuza boşaltmışlar. Yarın sabah kral erkenden havuzun yanına gitmiş. Herkes de havuzun başında toplanmış. Fakat ne görsünler! Havuz su ile dolu. Neden mi? Çünkü herkes “nasıl olsa kimse anlamaz” demiş ve süt değil, su dökmüş. Bundan sonra kral: -Hiçbir hile gizli ( saklı) kalmaz. Mutlaka ortaya çıkar. Bunu hiçbir zaman unutmayın, demiş. Herkes bundan çok utanmış. Üzgün şekilde evlerine dönmüş" wrapText="true">
+         <font>
+            <Font name="Rockwell" size="18.0" />
+         </font>
+      </TextArea>
+      <ImageView fx:id="i1" fitHeight="68.0" fitWidth="84.0" layoutX="50.0" layoutY="69.0" onMouseClicked="#initialize" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Снимок%20экрана%202023-12-16%20234743.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

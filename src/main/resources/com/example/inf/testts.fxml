@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1500.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.inf.TESTS">
+    <content>
+        <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="0.0" minWidth="0.0" prefHeight="1426.0" prefWidth="900.0">
+            <children>
+                <AnchorPane layoutX="-2.0" layoutY="113.0" prefHeight="67.0" prefWidth="900.0" style="-fx-background-color: #d42c2c;">
+                    <children>
+                        <Text layoutX="29.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pick the Turkish word that matches the English word." wrappingWidth="658.8199892044067">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </Text>
+                    </children></AnchorPane>
+                <Text layoutX="60.0" layoutY="207.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1. Oda [key]____ alabilir miyim?" wrappingWidth="444.8085994720459">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Text>
+                <Text layoutX="57.0" layoutY="299.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2. İçinde bütün Seyahat Çeklerimin olduğu [my wallet] kaybettim." wrappingWidth="658.8199892044067">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Text>
+                <CheckBox fx:id="chose1" layoutX="55.0" layoutY="237.0" mnemonicParsing="false" text="takımıının ">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </CheckBox>
+                <CheckBox fx:id="chose2" layoutX="188.0" layoutY="237.0" mnemonicParsing="false" text="anahtarını">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </CheckBox>
+                <CheckBox fx:id="chose" layoutX="328.0" layoutY="237.0" mnemonicParsing="false" text="elbisemin">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </CheckBox>
+                <CheckBox fx:id="chose11" layoutX="196.0" layoutY="333.0" mnemonicParsing="false" text="ehliyet ">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </CheckBox>
+                <CheckBox fx:id="chose12" layoutX="55.0" layoutY="333.0" mnemonicParsing="false" text="döviz">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </CheckBox>
+                <CheckBox fx:id="chose13" layoutX="328.0" layoutY="333.0" mnemonicParsing="false" text="cüzdanımı">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </CheckBox>
+                <Button fx:id="saveing" layoutX="417.0" layoutY="1366.0" mnemonicParsing="false" onAction="#initialize" style="-fx-background-color: #d42c2c;" text="SAVE" textFill="WHITE">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </Button>
+                <Text layoutX="57.0" layoutY="406.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3. [Ticket] ne kadar?" wrappingWidth="658.8199892044067">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Text>
+                <Text layoutX="57.0" layoutY="519.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4. _[Left]__ dönün." wrappingWidth="658.8199892044067">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Text>
+                <CheckBox fx:id="tan3" layoutX="324.0" layoutY="441.0" mnemonicParsing="false" text="Bilet">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </CheckBox>
+                <CheckBox fx:id="tan2" layoutX="201.0" layoutY="441.0" mnemonicParsing="false" text="Yer ">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </CheckBox>
+                <CheckBox fx:id="tan1" layoutX="55.0" layoutY="441.0" mnemonicParsing="false" text="Uçuş">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </CheckBox>
+                <CheckBox fx:id="tan6" layoutX="314.0" layoutY="555.0" mnemonicParsing="false" text="Dosdoğru">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </CheckBox>
+                <CheckBox fx:id="tan5" layoutX="188.0" layoutY="555.0" mnemonicParsing="false" text="Sola ">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </CheckBox>
+                <CheckBox fx:id="tan4" layoutX="58.0" layoutY="555.0" mnemonicParsing="false" text="Sağa ">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </CheckBox>
+                <CheckBox fx:id="tan9" layoutX="320.0" layoutY="658.0" mnemonicParsing="false" text="soğuk ">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </CheckBox>
+                <CheckBox fx:id="tan8" layoutX="186.0" layoutY="658.0" mnemonicParsing="false" text="soğuk ">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </CheckBox>
+                <CheckBox fx:id="tan7" layoutX="58.0" layoutY="658.0" mnemonicParsing="false" text="sıcak">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </CheckBox>
+                <Text layoutX="58.0" layoutY="780.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6. week" wrappingWidth="658.8199892044067">
+                    <font>
+                        <Font size="20.0" />
+                    </font>
+                </Text>
+                <CheckBox fx:id="tan12" layoutX="316.0" layoutY="823.0" mnemonicParsing="false" text="gün">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </CheckBox>
+                <CheckBox fx:id="tan11" layoutX="190.0" layoutY="823.0" mnemonicParsing="false" text="hafta ">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </CheckBox>
+                <CheckBox fx:id="tan10" layoutX="60.0" layoutY="823.0" mnemonicParsing="false" text="dün">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </CheckBox>
+                <Text layoutX="57.0" layoutY="629.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5. Bu çok _[hot]__." wrappingWidth="658.8199892044067">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Text>
+                <AnchorPane layoutX="-13.0" layoutY="690.0" prefHeight="67.0" prefWidth="700.0" style="-fx-background-color: #d42c2c;">
+                    <children>
+                        <Text layoutX="81.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Choose the Turkish translation for the English word shown." wrappingWidth="658.8199892044067">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </Text>
+                    </children>
+                </AnchorPane>
+                <Text layoutX="58.0" layoutY="891.0" strokeType="OUTSIDE" strokeWidth="0.0" text="7. door" wrappingWidth="658.8199892044067">
+                    <font>
+                        <Font size="20.0" />
+                    </font>
+                </Text>
+                <CheckBox fx:id="tan16" layoutX="316.0" layoutY="934.0" mnemonicParsing="false" text="kapı">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </CheckBox>
+                <CheckBox fx:id="tan14" layoutX="190.0" layoutY="934.0" mnemonicParsing="false" text="tren ">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </CheckBox>
+                <CheckBox fx:id="tan13" layoutX="60.0" layoutY="934.0" mnemonicParsing="false" text="pencere ">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </CheckBox>
+                <Text layoutX="58.0" layoutY="1009.0" strokeType="OUTSIDE" strokeWidth="0.0" text="8. watch" wrappingWidth="658.8199892044067">
+                    <font>
+                        <Font size="20.0" />
+                    </font>
+                </Text>
+                <CheckBox fx:id="tan19" layoutX="305.0" layoutY="1052.0" mnemonicParsing="false" text="işaret">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </CheckBox>
+                <CheckBox fx:id="tan18" layoutX="179.0" layoutY="1052.0" mnemonicParsing="false" text="saat ">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </CheckBox>
+                <CheckBox fx:id="tan17" layoutX="64.0" layoutY="1052.0" mnemonicParsing="false" text="kavşak ">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </CheckBox>
+                <Text layoutX="57.0" layoutY="1126.0" strokeType="OUTSIDE" strokeWidth="0.0" text="9. bottle" wrappingWidth="658.8199892044067">
+                    <font>
+                        <Font size="20.0" />
+                    </font>
+                </Text>
+                <CheckBox fx:id="tan22" layoutX="299.0" layoutY="1169.0" mnemonicParsing="false" text="şarap">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </CheckBox>
+                <CheckBox fx:id="tan21" layoutX="173.0" layoutY="1169.0" mnemonicParsing="false" text="bardak ">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </CheckBox>
+                <CheckBox fx:id="tan20" layoutX="63.0" layoutY="1169.0" mnemonicParsing="false" text="şişe ">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </CheckBox>
+                <Text layoutX="57.0" layoutY="1238.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10. tip" wrappingWidth="658.8199892044067">
+                    <font>
+                        <Font size="20.0" />
+                    </font>
+                </Text>
+                <CheckBox fx:id="tan25" layoutX="315.0" layoutY="1281.0" mnemonicParsing="false" text="bahşiş">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </CheckBox>
+                <CheckBox fx:id="tan24" layoutX="189.0" layoutY="1281.0" mnemonicParsing="false" text="hesabı ">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </CheckBox>
+                <CheckBox fx:id="tan23" layoutX="59.0" layoutY="1281.0" mnemonicParsing="false" text="kredi ">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </CheckBox>
+                <Label fx:id="pointsLabel" layoutX="345.0" layoutY="21.0" prefHeight="137.0" prefWidth="143.0" text="POINT: " textFill="#2e02e5">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Label>
+                <Button fx:id="back" layoutX="852.0" layoutY="2.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="22.0" prefWidth="47.0" style="-fx-background-color: #d42c2c; -fx-background-radius: 14;" text="back" textAlignment="RIGHT" textFill="WHITE" />
+            </children>
+        </AnchorPane>
+    </content>
+</ScrollPane>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: d42c2c;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.inf.Grammar2">
+   <children>
+      <AnchorPane layoutX="-1.0" layoutY="154.0" prefHeight="445.0" prefWidth="900.0" style="-fx-background-color: white;">
+         <children>
+            <ImageView fx:id="image1" fitHeight="104.0" fitWidth="344.0" layoutX="70.0" layoutY="259.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../Desktop/Final_INF/degrees_of_comparison.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="image2" fitHeight="104.0" fitWidth="392.0" layoutX="443.0" layoutY="279.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../Desktop/Final_INF/Снимок%20экрана%202023-12-18%20150619.jpg" />
+               </image>
+            </ImageView>
+            <TextArea fx:id="textArea1" layoutX="70.0" layoutY="49.0" prefHeight="200.0" prefWidth="324.0" style="-fx-background-color: white; -fx-background-radius: 8px;">
+               <font>
+                  <Font name="Rockwell" size="14.0" />
+               </font>
+            </TextArea>
+            <TextArea fx:id="textArea2" layoutX="450.0" layoutY="49.0" prefHeight="200.0" prefWidth="377.0" style="-fx-background-color: white; -fx-background-radius: 8px;">
+               <font>
+                  <Font name="Rockwell" size="14.0" />
+               </font>
+            </TextArea>
+         </children>
+      </AnchorPane>
+      <Text fill="WHITE" layoutX="282.0" layoutY="99.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Learn Turkish">
+         <font>
+            <Font name="Rockwell Bold" size="48.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="159.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Grammar 2 - Degrees Of Comparison and Plurals">
+         <font>
+            <Font name="Rockwell Bold" size="24.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="Image_back" fitHeight="48.0" fitWidth="55.0" layoutX="51.0" layoutY="101.0" onMouseClicked="#initialize" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../Desktop/Final_INF/Снимок%20экрана%202023-12-16%20234743.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

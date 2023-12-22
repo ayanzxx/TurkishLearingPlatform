@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: d42c2c;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.inf.Audio">
+   <children>
+      <AnchorPane layoutX="-1.0" layoutY="154.0" prefHeight="446.0" prefWidth="900.0" style="-fx-background-color: #fdf5e6;">
+         <children>
+            <TextArea editable="false" layoutY="-1.0" prefHeight="157.0" prefWidth="900.0" style="-fx-background-color: white;" />
+            <TextArea editable="false" layoutY="157.0" prefHeight="146.0" prefWidth="900.0" style="-fx-background-color: white;" />
+            <TextArea editable="false" layoutY="293.0" prefHeight="146.0" prefWidth="900.0" style="-fx-background-color: white;" />
+            <Text fill="#d92121" layoutX="42.0" layoutY="98.0" strokeType="OUTSIDE" strokeWidth="0.0" text="AudioBook1">
+               <font>
+                  <Font name="Rockwell" size="24.0" />
+               </font>
+            </Text>
+            <ImageView fx:id="i1" fitHeight="70.0" fitWidth="70.0" layoutX="200.0" layoutY="50.0" onMouseClicked="#initialize" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../Desktop/Final_INF/playcircle_113957.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="i2" fitHeight="70.0" fitWidth="70.0" layoutX="290.0" layoutY="50.0" onMouseClicked="#initialize" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../Desktop/Final_INF/8335443.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="i3" fitHeight="70.0" fitWidth="70.0" layoutX="390.0" layoutY="50.0" onMouseClicked="#initialize" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../Desktop/Final_INF/Без%20названия.png" />
+               </image>
+            </ImageView>
+            <Text fill="#d92121" layoutX="491.0" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Title: Etme">
+               <font>
+                  <Font name="Rockwell" size="24.0" />
+               </font>
+            </Text>
+            <Text fill="#d92121" layoutX="45.0" layoutY="238.0" strokeType="OUTSIDE" strokeWidth="0.0" text="AudioBook2">
+               <font>
+                  <Font name="Rockwell" size="24.0" />
+               </font>
+            </Text>
+            <ImageView fx:id="i4" fitHeight="70.0" fitWidth="70.0" layoutX="200.0" layoutY="190.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../Desktop/Final_INF/playcircle_113957.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="i5" fitHeight="70.0" fitWidth="70.0" layoutX="290.0" layoutY="190.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../Desktop/Final_INF/8335443.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="i6" fitHeight="70.0" fitWidth="70.0" layoutX="390.0" layoutY="190.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../Desktop/Final_INF/Без%20названия.png" />
+               </image>
+            </ImageView>
+            <Text fill="#d92121" layoutX="494.0" layoutY="233.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Title: BirHazinHurriyEt">
+               <font>
+                  <Font name="Rockwell" size="24.0" />
+               </font>
+            </Text>
+            <Text fill="#d92121" layoutX="42.0" layoutY="366.0" strokeType="OUTSIDE" strokeWidth="0.0" text="AudioBook3">
+               <font>
+                  <Font name="Rockwell" size="24.0" />
+               </font>
+            </Text>
+            <ImageView fx:id="i7" fitHeight="70.0" fitWidth="70.0" layoutX="200.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../Desktop/Final_INF/playcircle_113957.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="i8" fitHeight="70.0" fitWidth="70.0" layoutX="290.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../Desktop/Final_INF/8335443.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="i9" fitHeight="70.0" fitWidth="70.0" layoutX="390.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../Desktop/Final_INF/Без%20названия.png" />
+               </image>
+            </ImageView>
+            <Text fill="#d92121" layoutX="491.0" layoutY="361.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Title: GitmeIstemem">
+               <font>
+                  <Font name="Rockwell" size="24.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <ImageView fx:id="image1" fitHeight="60.0" fitWidth="60.0" layoutX="70.0" layoutY="90.0" onMouseClicked="#initialize" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../Desktop/Final_INF/Снимок%20экрана%202023-12-16%20234743.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="257.0" layoutY="103.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Learn Turkish">
+         <font>
+            <Font name="Rockwell" size="64.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="328.0" layoutY="144.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Visual Lessons">
+         <font>
+            <Font name="Rockwell" size="36.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

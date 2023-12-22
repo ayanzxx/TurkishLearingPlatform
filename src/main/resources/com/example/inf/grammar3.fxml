@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: d42c2c;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.inf.Grammar3">
+   <children>
+      <AnchorPane layoutX="-1.0" layoutY="154.0" prefHeight="445.0" prefWidth="900.0" style="-fx-background-color: #fdf5e6;">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="339.0" layoutY="138.0" pickOnBounds="true" preserveRatio="true" />
+            <TextArea fx:id="textARea1" layoutX="12.0" layoutY="28.0" prefHeight="403.0" prefWidth="881.0" />
+            <ImageView fx:id="image2" fitHeight="198.0" fitWidth="357.0" layoutX="62.0" layoutY="155.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../Desktop/Final_INF/varYol.jpg" />
+               </image>
+            </ImageView>
+            <Text fill="#d42c2c" layoutX="72.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="    The words var and yok are the equivalents of “there is/there are” and “there isn’t/there aren’t” respectively. “Var olmak” means “to exist“. If “var” is used with a subject, this indicates that something exists. Conversely, “Yok olmak” means “disappear“. If used with a subject “Yok” indicates the non-existence of something.“Var” and “Yok” are such useful two words that you would easily use a grammatical change." wrappingWidth="762.9367065429688">
+               <font>
+                  <Font name="Rockwell" size="14.0" />
+               </font>
+            </Text>
+            <Text fill="#d42c2c" layoutX="72.0" layoutY="143.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Example">
+               <font>
+                  <Font name="Rockwell" size="14.0" />
+               </font>
+            </Text>
+            <Text fill="#d42c2c" layoutX="476.0" layoutY="167.0" strokeType="OUTSIDE" strokeWidth="0.0" text="“Yok” indicates something’s or someone’s absence.">
+               <font>
+                  <Font name="Rockwell" size="14.0" />
+               </font>
+            </Text>
+            <Text fill="#d42c2c" layoutX="476.0" layoutY="259.0" strokeType="OUTSIDE" strokeWidth="0.0" text="“Var” indicates something’s existence. For example, Burada sadece pastahane var" wrappingWidth="357.0562744140625">
+               <font>
+                  <Font name="Rockwell" size="14.0" />
+               </font>
+            </Text>
+            <Text fill="#d42c2c" layoutX="439.0" layoutY="304.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Annenler evde var mı? (lit. Are your mothers at home? The overuse of the plural suffix -ler/-lar somehow makes the sentence more polite. Even, Annenler evde varlar mı? or Annenler evdeler mi? )" wrappingWidth="437.080078125">
+               <font>
+                  <Font name="Rockwell" size="14.0" />
+               </font>
+            </Text>
+            <Text fill="#d42c2c" layoutX="439.0" layoutY="192.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Moreover, “Yok” can mean “No”. But please watch out when using this way because this use is a little bit of informal even though it can make you sound like a real Turkish native." wrappingWidth="437.080078125">
+               <font>
+                  <Font name="Rockwell" size="14.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <Text fill="WHITE" layoutX="282.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Learn Turkish">
+         <font>
+            <Font name="Rockwell Bold" size="48.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="Image_back" fitHeight="60.0" fitWidth="60.0" layoutX="70.0" layoutY="90.0" onMouseClicked="#initialize" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../Desktop/Final_INF/Снимок%20экрана%202023-12-16%20234743.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="308.0" layoutY="139.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Grammar 3 - Var ve Yok">
+         <font>
+            <Font name="Rockwell Bold" size="24.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

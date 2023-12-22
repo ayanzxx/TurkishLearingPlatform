@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: d42c2c;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.inf.Book3">
+   <children>
+      <TextArea fx:id="t1" editable="false" layoutX="84.0" layoutY="223.0" prefHeight="311.0" prefWidth="762.0" text="GERÇEK KARDEŞLİK Uzak bir ülkede iki kardeş yaşıyor. Bu iki kardeş babalarının bahçelerinde çalışıyor. Büyük kardeş evli idi. Küçük kardeş bekar idi. O yıl çok iyi mahsül aldılar. Her iki kardeş bahçeden meyve ve sebze topladılar. Yarısını büyük kardeş, yarısını da küçük kardeş aldı. Herkes kendi mahsülünü evine götürdü. Bir gün küçük kardeş şöyle düşündü: “Mahsülün yarısını ben aldım, yarısını ağabeyim aldı. Bence bu doğru değil. Ağabeyimin çocukları var. Onlara bakıyor ve daha çok para harcıyor. Ona daha fazla mahsül lazım.” Ve bundan sonra her gece ağabeyinin ambarına bir torba patates koydu. Ağabeyi ise: “Kardeşim bekar, daha evlenmedi. Evlenmek için ona çok para lazım. Ben evliyim, çocuklarım var. Kardeşimin çocuğu yok.” Diye düşündü. Ve bundan sonra her gece bir torba patatesi kardeşinin ambarına koydu. Bunun için küçük kardeşin patatesleri ve büyük kardeşin patatesleri hiç azalmadı. İki kardeş buna çok şaşırdılar. “ Niçin azalmadı” diye düşündüler. Bir gece ağabey, yine kardeşine patates götürüyor. Yolda kardeşini görüyor ve şaşırıyor. Çünkü kardeşinde de bir torba patates vardı. İki kardeş patateslerin niçin azalmadığını o zaman anlıyorlar. Ve çuvalları yere koyuyorlar. Sevgi ile birbirlerine sarılıyorlar." wrapText="true">
+         <font>
+            <Font name="Rockwell" size="18.0" />
+         </font>
+      </TextArea>
+      <Text fill="WHITE" layoutX="267.0" layoutY="103.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Learn Turkish">
+         <font>
+            <Font name="Rockwell" size="64.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="i1" fitHeight="68.0" fitWidth="84.0" layoutX="40.0" layoutY="59.0" onMouseClicked="#initialize" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Снимок%20экрана%202023-12-16%20234743.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

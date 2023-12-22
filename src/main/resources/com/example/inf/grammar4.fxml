@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: d42c2c;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.inf.Grammar4">
+   <children>
+      <AnchorPane layoutX="-1.0" layoutY="154.0" prefHeight="445.0" prefWidth="900.0" style="-fx-background-color: #fdf5e6;">
+         <children>
+            <TextArea fx:id="textArea" layoutX="11.0" layoutY="11.0" prefHeight="419.0" prefWidth="870.0" />
+            <Text fill="#d42c2c" layoutX="86.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="    Possessive determiners attribute possession to the objects. Some of them: Their, my, your etc.In Turkish, there are equivalents of these determiners too. They are listed for you below. But when indicating possession, natives prefer using the suffixes of personal pronouns. They usually don’t use the possessive determiners. If you both use the possessive determiner and the personal pronoun suffix, it means an emphasis on the possession." wrappingWidth="762.525764465332">
+               <font>
+                  <Font name="Rockwell Bold" size="14.0" />
+               </font>
+            </Text>
+            <Text fill="#d42c2c" layoutX="86.0" layoutY="191.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Benim arabam kırmızı">
+               <font>
+                  <Font name="Rockwell Bold" size="14.0" />
+               </font>
+            </Text>
+            <ImageView fx:id="image3" fitHeight="325.0" fitWidth="574.0" layoutX="338.0" layoutY="105.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../Desktop/Final_INF/7946029dc1b92a98796c00c37bce7378.jpg" />
+               </image>
+            </ImageView>
+            <Text fill="#d42c2c" layoutX="85.0" layoutY="234.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Senin kaç tane çocuğun var">
+               <font>
+                  <Font name="Rockwell Bold" size="14.0" />
+               </font>
+            </Text>
+            <Text fill="#d42c2c" layoutX="85.0" layoutY="281.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Onların evine gittim">
+               <font>
+                  <Font name="Rockwell Bold" size="14.0" />
+               </font>
+            </Text>
+            <Text fill="#d42c2c" layoutX="85.0" layoutY="145.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Example" wrappingWidth="129.68182373046875">
+               <font>
+                  <Font name="Rockwell Bold" size="14.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <Text fill="WHITE" layoutX="252.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Learn Turkish">
+         <font>
+            <Font name="Rockwell" size="64.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="230.0" layoutY="129.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Grammar 4 - Possessive Determiners ">
+         <font>
+            <Font name="Rockwell Bold" size="24.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="Image_back" fitHeight="60.0" fitWidth="60.0" layoutX="70.0" layoutY="90.0" onMouseClicked="#initialize" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../Desktop/Final_INF/Снимок%20экрана%202023-12-16%20234743.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
